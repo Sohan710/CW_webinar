@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ReactComponent as LogoSvg } from '../images/Cambridge - Horizontal - White.svg';
+import FirstLeft  from '../components/Firstleft';
 // import './fonts/BegumSans-Medium.ttf'
 // import './fonts/BegumSans-Bold.ttf'
 // import './fonts/BegumSans-Light.ttf'
@@ -48,8 +49,8 @@ function Navbar() {
                     
                 </div>
             </nav>
-            
-            <nav className="homepage">
+            <FirstLeft />
+            {/* <nav className="homepage">
                 <div className="text1">
                     <p>Indian startups raised a record $17 Bn in Q3 of CY21. Tech-platforms like <br/>
                     Zomato are now creating wealth for Retail investors via their recent listing.</p>
@@ -67,7 +68,7 @@ function Navbar() {
                     <p>Technology is set to change the way India operates. How can you benefit as an <br/> 
                     Investor?</p>
                 </div>
-            </nav>
+            </nav> */}
         </>
     )
     

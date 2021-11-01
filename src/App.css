@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 } */
+@media screen and (max-width: 600px) {
+  .col-sm-8 {
+    width: 100%;
+  }
+  .col-sm-4 {
+    width: 100%;
+    background-color: aqua;
+  }
+}
+
+
+/* .left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+  background-color: #f2f5f793;
+} */
+.col-sm-8 {
+  width: 60%;
+  bottom: 0%;
+  height: 94vh;
+  overflow-y: auto;
+}
+.col-sm-4 {
+  width: 40%;
+  background-color:#f2f5f7;
+  bottom: 0%;
+  height: 94vh;
+  overflow-y: auto;
+}
+.container-fluid {
+  padding-left: 0%;
+  height: 94vh;
+  overflow-y: auto; 
+}
+.row {
+  margin: auto;
+}

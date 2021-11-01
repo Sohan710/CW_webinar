@@ -60,19 +60,67 @@
   bottom: 0%;
   height: 94vh;
   overflow-y: auto;
+  background-color: white;
 }
+
+.col-sm-8 #hr {
+  margin-bottom: 100px;
+  
+}
+
 .col-sm-4 {
   width: 40%;
-  background-color:#f2f5f7;
+  /* background-color:#f2f5f7; */
   bottom: 0%;
   height: 94vh;
   overflow-y: auto;
+  
 }
 .container-fluid {
   padding-left: 0%;
   height: 94vh;
   overflow-y: auto; 
+  
 }
 .row {
   margin: auto;
+}
+#t2 {
+  font-family: 'Begum sans';
+  font-size: 28px;
+  text-align: right;
+  margin-top: 70px;
+}
+#t3 {
+  font-family: 'Begum sans';
+  font-size: 28px;
+  text-align: right;
+  margin-top: -20px;
+}
+#t4 {
+  font-family: 'Begum sans';
+  font-size: 28px;
+  text-align: right;
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+
+
+.button {
+  background-color: #f4c264;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 2px ;
+  cursor: pointer;
+  border-radius: 28px;
+  font-family: 'Begum sans';
+  font-style: bolder;
+  font-weight: 600;
+  font-size: 16px;
+  width: fit-content;
+  place-items: right;
 }

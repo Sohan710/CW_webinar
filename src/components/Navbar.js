@@ -40,12 +40,12 @@ function Navbar() {
                     <p>Making Performance Investing Easy,</p>
                     <p id="p1">Accessible and Transparent</p>
                 </div>
+                
             </nav>
-
             <nav className="headertext">
                 <div className="head-text">
                     <p>A Deep Dive Into</p>
-                    <p id="t1">Investing into the Indian Tech Story</p>
+                    <p id="t1">Investing in the Indian Tech Story</p>
                     
                 </div>
             </nav>

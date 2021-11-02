@@ -89,7 +89,7 @@
   font-family: 'Begum sans';
   font-size: 28px;
   text-align: right;
-  margin-top: 70px;
+  margin-top: 10px;
 }
 #t3 {
   font-family: 'Begum sans';
@@ -105,6 +105,10 @@
   padding-bottom: 20px;
 }
 
+.butt{
+  margin-top: 60px;
+  margin-left: 405px;
+}
 
 .button {
   background-color: #f4c264;
@@ -121,6 +125,47 @@
   font-style: bolder;
   font-weight: 600;
   font-size: 16px;
-  width: fit-content;
-  place-items: right;
+  width: 170px;
+}
+
+.bott_text{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family: 'Begum sans';
+  font-size: 28px;
+  font-style: bolder;
+  font-weight: 600;
+
+}
+
+.bott_info{
+  font-family: 'Begum sans';
+  font-size: 20px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 180px;
+  padding-bottom: 20px;
+}
+
+.pic1{
+  margin-top: -265px;
+  margin-left: 60px;
+}
+.pic2{
+  margin-top: -25px;
+  margin-left: 60px;
+}
+.pic3{
+  margin-top: -30px;
+  margin-left: 50px;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #f4c264 !important;
+  border: #000;
+  color: #000;
+  font-weight: 500;
+  width: 175px;
+  margin-left: 380px;
+  margin-top: 10px;
+  font-family: 'Begum sans';
 }

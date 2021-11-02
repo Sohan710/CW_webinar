@@ -1,0 +1,47 @@
+.ck {
+    margin-left: 120px;
+}
+.text_center {
+    font-family: 'Begum sans';
+    font-size: 20px;
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 160px;
+    padding-bottom: 20px;
+    color: #808080;
+    
+}
+/* 
+.text2 {
+
+    font-family: 'Begum sans-light';
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #000;
+    text-align: left;
+} */
+
+#tx2{
+    margin-top: -20px;
+    font-family: 'Begum sans';
+    color: #808080;
+}
+.center_text{
+    font-family: 'Begum sans';
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 160px;
+    padding-bottom: 20px;
+  }
+  #tx3{
+    margin-top: -20px;
+    font-family: 'Begum sans';
+    color: #808080;
+  }
+
+  #icon2{
+    margin-top: 125px;
+    margin-left: -135px;
+  }

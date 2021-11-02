@@ -9,6 +9,8 @@ import * as Icon from 'react-bootstrap-icons';
 import image_1 from './images/1.svg';
 import image_2 from './images/2.svg';
 import image_3 from './images/3.svg';
+import Secondleft from './components/Secondleft';
+import Secondright from './components/Secondright';
 function App() {
   return (
 
@@ -69,6 +71,27 @@ function App() {
           </div>
         </div>
 
+        {/* Second screen */}
+        <div style={{
+          backgroundImage: `url(${PaintIcon})`
+        }}>
+
+
+          <div className="container-fluid">
+            <div class="row">
+
+              <div className="col-sm-8">
+                <p id = "title">Speakers</p>
+                <Secondleft />
+              </div>
+              <div className="col-sm-4 " >
+                <p id = "title">Moderator</p>
+                <Secondright />
+              </div> 
+            </div>
+
+          </div>
+        </div>
 
         <Switch>
           <Route path='/' exact component={Signup} />

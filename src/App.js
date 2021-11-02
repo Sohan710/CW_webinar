@@ -11,6 +11,8 @@ import image_2 from './images/2.svg';
 import image_3 from './images/3.svg';
 import Secondleft from './components/Secondleft';
 import Secondright from './components/Secondright';
+import Thirdleft from './components/Thirdleft';
+import Thirdright from './components/Thirdright';
 function App() {
   return (
 
@@ -92,7 +94,28 @@ function App() {
 
           </div>
         </div>
+        
+        {/* Third screen */}
+        <div style={{
+          backgroundImage: `url(${PaintIcon})`
+        }}>
 
+
+          <div className="container-fluid">
+            <div class="row">
+
+              <div className="col-sm-8">
+                
+                <Thirdleft />
+              </div>
+              <div className="col-sm-4 " >
+                
+                <Thirdright />
+              </div> 
+            </div>
+
+          </div>
+        </div>
         <Switch>
           <Route path='/' exact component={Signup} />
         </Switch>

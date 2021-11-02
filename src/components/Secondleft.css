@@ -1,0 +1,76 @@
+  .pic4{
+    margin-left: 60px;
+    
+  }
+  .pic5{
+    margin-left: 420px;
+    margin-top: -341px;
+  }
+
+  #icon1{
+    margin-top: 125px;
+    margin-left: -135px;
+  }
+
+  #icon2{
+    margin-top: 125px;
+    margin-left: -135px;
+  }
+
+
+  .text_data{
+    font-family: 'Begum sans';
+    font-size: 20px;
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 160px;
+    padding-bottom: 20px;
+    color: #808080;
+  }
+  #tx1{
+      margin-top: -20px;
+      font-family: 'Begum sans';
+      color: #808080;
+  }
+
+  .text_data1{
+    font-family: 'Begum sans';
+    font-size: 20px;
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 500px;
+    padding-bottom: 20px;
+    color: #808080;
+  }
+  #tx2{
+      margin-top: -20px;
+      font-family: 'Begum sans';
+      color: #808080;
+  }
+
+  .left_text{
+    font-family: 'Begum sans';
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+  }
+  #tx3{
+      margin-top: -20px;
+      font-family: 'Begum sans';
+      color: #808080;
+  }
+
+  .right_text{
+    font-family: 'Begum sans';
+    font-size: 20px;
+    text-align: left;
+    margin-top: -230px;
+    margin-left: 500px;
+    padding-bottom: 20px;
+  }
+  #tx4{
+      margin-top: -20px;
+      font-family: 'Begum sans';
+  }

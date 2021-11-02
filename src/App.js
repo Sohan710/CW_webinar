@@ -37,7 +37,7 @@ function App() {
                 <hr
                   style={{
                     color: 'black',
-                    height: 1.5,
+                    height: 2,
                     marginTop: -16,
                     width: 610,
                     marginLeft: -20

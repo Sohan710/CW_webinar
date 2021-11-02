@@ -7,7 +7,7 @@ function Firstleft() {
         style={{
             color: 'black',
             height: 2,
-            marginTop: 170,
+            marginTop: 91,
             width: 890
         }}
     />

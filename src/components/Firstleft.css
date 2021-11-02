@@ -12,9 +12,9 @@
 
 .text1 {
     font-family: 'Begum sans';
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
     color: #808080;
 }
 
@@ -32,9 +32,9 @@
 .text2 {
 
     font-family: 'Begum sans';
-    font-size: 24px;
-    margin-top: 40px;
-    margin-left: 20px;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 50px;
     color: #808080;
 }
 
@@ -51,8 +51,8 @@
 
 .text3 {
     font-family: 'Begum sans';
-    margin-top: 100px;
-    font-size: 24px;
-    margin-left: 20px;
+    margin-top: 120px;
+    font-size: 22px;
+    margin-left: 50px;
     color: #808080;
 }

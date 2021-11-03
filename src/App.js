@@ -105,7 +105,8 @@ function App() {
             <div class="row">
 
               <div className="col-sm-8">
-                
+                <p id = "title3">Register now for assured access.</p>
+                <p id = "title4">We have limited seats.</p>
                 <Thirdleft />
               </div>
               <div className="col-sm-4 " >

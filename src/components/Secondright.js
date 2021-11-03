@@ -7,7 +7,7 @@ function Secondright() {
         <> 
             <div className="ck">
                   <img src={Ck} height={300} width={350} />
-                  <AiFillLinkedin size="50px" color='#2867B2' id="icon2"/>
+                  <AiFillLinkedin size="50px" color='#2867B2' id="icon"/>
                   <br />
             </div>
             <div className="text_center">

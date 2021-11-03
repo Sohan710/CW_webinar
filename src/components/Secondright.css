@@ -41,7 +41,11 @@
     color: #808080;
   }
 
-  #icon2{
+  #icon{
     margin-top: 125px;
     margin-left: -135px;
+    border-radius: 5px;
+    background: #f2f5f7;
+    border-width: -15px;
   }
+  

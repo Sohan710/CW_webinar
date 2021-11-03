@@ -1,5 +1,5 @@
 form {
-    max-width: 500px;
+    max-width: 550px;
     margin: 0 auto;
     font-family: 'Begum sans regular';
   }
@@ -142,8 +142,9 @@ form {
     border-left: 0px;
     border-top: 0px;
     border-right: 0px;
-    width: 40%;
-    font-size: 20px;
+    width: 60%;
+    font-size: 18px;
+    font-family: 'Begum sans regular';
   }
 
   .last_text {
@@ -156,3 +157,18 @@ form {
     color: #808080;
   }
 
+  .row {
+    margin-left: -13px;
+  }
+
+  .col-sm-5 {
+    width: 50%;
+    bottom: 0%;
+    height: 15vh;
+    overflow-y: auto;
+    background-color: white;
+  }
+
+  #design {
+    width: 80%;
+  }

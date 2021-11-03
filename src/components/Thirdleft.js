@@ -1,7 +1,7 @@
 import React from 'react';
 import './Thirdleft.css';
 // import ReactDOM from "react-dom";
-import { useForm } from "react-hook-form";
+import { useForm, Controller } from "react-hook-form";
 
 function Thirdleft() {
     const {
@@ -46,11 +46,11 @@ function Thirdleft() {
           )}
           
           <label class="required">Phone No</label>
-          <input {...register("mobNo", {required: true,minLength:10,maxLength:12, pattern: /^[]+$/i })} />
+          <input {...register("mobNo", {required: true,minLength:10,maxLength:12 })} />
           {errors?.mobNo?.type === "required" && <p1>This field is required</p1>}
-          {errors?.mobNo?.type === "pattern" && (
+          {/* {errors?.mobNo?.type === "pattern" && (
             <p1>Mobile Number cannot be less than 10 characters</p1>
-          )}
+          )} */}
 
             <label class="required">Profession</label>
             <select {...register("profession",{required: true})}>
@@ -64,12 +64,11 @@ function Thirdleft() {
                 <option value="female">female</option>
                 <option value="male">male</option>
                 <option value="other">other</option>
+                defaultValue="..."
             </select>
+            
             {errors?.designation?.type === "required" && <p1>This field is required</p1>}
-          {/* <input type="submit" /> */}
-          <div className="butt_last">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Register Now</a>
-          </div>
+          <input type="submit" value="Register Now"/>
         </form>
     );
 };

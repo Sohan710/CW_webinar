@@ -18,7 +18,7 @@ function Thirdleft() {
       console.log(watch("example"));
     return (
             <form onSubmit={handleSubmit(onSubmit)}>
-          <label>Name</label>
+          <label class="required">Name</label>
           <input
             {...register("firstName", {
               required: true,
@@ -38,35 +38,38 @@ function Thirdleft() {
           {errors?.lastName?.type === "pattern" && (
             <p1>Alphabetical characters only</p1>
           )} */}
-          <label>Email ID</label>
+          <label className='required'>Email ID</label>
           <input {...register("emailID", {required: true, pattern: /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i })} />
           {errors?.emailID?.type === "required" && <p1>This field is required</p1>}
           {errors?.emailID?.type === "pattern" && (
             <p1>Alphabetical characters only</p1>
           )}
           
-          <label>Phone No</label>
+          <label class="required">Phone No</label>
           <input {...register("mobNo", {required: true,minLength:10,maxLength:12, pattern: /^[]+$/i })} />
           {errors?.mobNo?.type === "required" && <p1>This field is required</p1>}
           {errors?.mobNo?.type === "pattern" && (
             <p1>Mobile Number cannot be less than 10 characters</p1>
           )}
 
-            <label>Profession</label>
+            <label class="required">Profession</label>
             <select {...register("profession",{required: true})}>
                 <option value="female">female</option>
                 <option value="male">male</option>
                 <option value="other">other</option>
             </select>
             {errors?.profession?.type === "required" && <p1>This field is required</p1>}
-            <label>Designation</label>
+            <label class="required">Designation</label>
             <select {...register("designation",{required: true})}>
                 <option value="female">female</option>
                 <option value="male">male</option>
                 <option value="other">other</option>
             </select>
             {errors?.designation?.type === "required" && <p1>This field is required</p1>}
-          <input type="submit" />
+          {/* <input type="submit" /> */}
+          <div className="butt_last">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Register Now</a>
+          </div>
         </form>
     );
 };

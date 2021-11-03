@@ -13,6 +13,7 @@ import Secondleft from './components/Secondleft';
 import Secondright from './components/Secondright';
 import Thirdleft from './components/Thirdleft';
 import Thirdright from './components/Thirdright';
+import Footer from './components/Footer';
 function App() {
   return (
 
@@ -117,9 +118,7 @@ function App() {
 
           </div>
         </div>
-        <Switch>
-          <Route path='/' exact component={Signup} />
-        </Switch>
+        <Footer />
       </Router>
     </>
   );

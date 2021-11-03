@@ -16,8 +16,8 @@ function Secondright() {
             </div>
             
             <div className="center_text">
-                <p>12+ years of experience with <br/>Oliphans Capital, Kelusa Capital<br/>& Antique.</p>
-                <p className="tx3">Led early-stage rounds across<br/>ECom Express, Grab.in, Local<br/>Banya, HumourMe.</p>
+                <p>Over 16 years of Capital Markets<br/>experience with Global Investment<br/>banking, based in NY and London..</p>
+                <p className="tx3">Managed over 10,000 Cr Client assets.<br/>Responsible for Strategy and Product<br/>and at CW..</p>
             </div>
             
 

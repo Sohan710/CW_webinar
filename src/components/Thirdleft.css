@@ -1,6 +1,7 @@
 form {
     max-width: 500px;
     margin: 0 auto;
+    font-family: 'Begum sans regular';
   }
   
   h1 {
@@ -19,15 +20,17 @@ form {
   
   p1 {
     color: #bf1650;
-    font-family: 'Begum sans';
-    font-size: 20px;
+    font-family: 'Begum sans ';
+    font-size: 10px;
     margin-top: -5px;
+    padding: -10px;
   }
   
   p1::before {
-    display: inline;
-    content: "⚠ ";
+    /* display: inline-block;
+    content: "*Required"; */
     margin-top: -5px;
+    padding: -50px;
   }
   
   input {
@@ -39,7 +42,7 @@ form {
     border-right: 0px;
     padding: -10px -5px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
 
   }
   
@@ -59,14 +62,14 @@ form {
   input[type="submit"] {
     background: #f4c264;
     color: black;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     border: none;
     margin-top: 40px;
-    padding: 20px;
+    padding: 10px;
     font-size: 16px;
-    font-weight: 100;
-    letter-spacing: 10px;
-    font-family: 'Begum sans';
+    font-weight: 50;
+    /* letter-spacing: 10px; */
+    font-family: 'Begum sans medium';
     border-radius: 5px;
   }
   
@@ -109,7 +112,7 @@ form {
     background: #333;
     color: black;
     border: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 10px 20px;
     border-radius: 4px;
   }
@@ -124,7 +127,7 @@ form {
     margin-top: 40px;
     border: 1px solid #333;
     margin-bottom: 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 10px 20px;
     border-radius: 4px;
   }
@@ -143,4 +146,13 @@ form {
     font-size: 20px;
   }
 
+  .last_text {
+    font-family: 'Begum sans';
+    font-size: 9px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    color: #808080;
+  }
 

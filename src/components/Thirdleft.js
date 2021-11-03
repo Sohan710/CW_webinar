@@ -54,17 +54,28 @@ function Thirdleft() {
 
             <label class="required">Profession</label>
             <select {...register("profession",{required: true})}>
-                <option value="female">female</option>
-                <option value="male">male</option>
-                <option value="other">other</option>
+                <option value="Service">Service</option>
+                <option value="Private">Private</option>
+                <option value="Govt Sector">Govt Sector</option>
+                <option value="Self Employed">Self Employed</option>
+                <option value="Retired">Retired</option>
+                <option value="Student">Student</option>
+
             </select>
             {errors?.profession?.type === "required" && <p1></p1>}
             <label class="required">Designation</label>
             <select {...register("designation",{required: true})}>
-                <option value="female">female</option>
-                <option value="male">male</option>
-                <option value="other">other</option>
-                defaultValue="..."
+                <option value="Salaried - Director">Salaried - Director</option>
+                <option value="Salaried - VP, SVP">Salaried - VP, SVP</option>
+                <option value="Salaried - CEO">Salaried - CEO</option>
+                <option value="Salaried - Associate">Salaried - Associate</option>
+                <option value="Salaried - Manager">Salaried - Manager</option>
+                <option value="Owner - Trading Business">Owner - Trading Business</option>
+                <option value="Owner - Manufacturing Enterprises">Owner - Manufacturing Enterprises</option>
+                <option value="Owner - Director">Owner - Director</option>
+                <option value="Self Employed - Concultant">Self Employed - Concultant</option>
+                <option value="Self Employed - Freelancer">Self Employed - Freelancer</option>
+
             </select>
             
             {errors?.designation?.type === "required" && <p1></p1>}

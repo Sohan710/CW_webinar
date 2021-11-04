@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "cambridgewealth-webinar",
+    "prod": "cambridgewealth-webinar"
+  },
+  "targets": {}
+}

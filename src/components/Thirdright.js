@@ -5,7 +5,7 @@ import image_5 from '../images/5.svg';
 import image_6 from '../images/6.svg';
 import { SiLinkedin } from 'react-icons/si';
 import { SiInstagram } from 'react-icons/si';
-import { SiWhatsapp } from 'react-icons/si';
+import { SiTwitter } from 'react-icons/si';
 import { SiFacebook } from 'react-icons/si';
 import { SiYoutube } from 'react-icons/si';
 
@@ -31,19 +31,19 @@ function Thirdright() {
         </div>
 
         <div className="socal_icon1">
-            <SiLinkedin size="30px" />
+            <a href="https://in.linkedin.com/company/cambridge-wealth " target="_blank" ><SiLinkedin size="30px" /></a>
             </div>
             <div className="socal_icon2">
-            <SiInstagram size="30px" />
+            <a href="https://www.instagram.com/cambridgewealth.india/?hl=en   " target="_blank" ><SiInstagram size="30px" /></a>
             </div>
             <div className="socal_icon3">
-            <SiWhatsapp size="30px"/>
+            <a href="https://twitter.com/cambridgewealt1  " target="_blank" ><SiTwitter size="30px"/></a>
             </div>
             <div className="socal_icon4">
-            <SiFacebook size="30px"/>
+            <a href="https://www.facebook.com/CambridgeWealth/  " target="_blank" ><SiFacebook size="30px"/></a>
             </div>
             <div className="socal_icon5">
-            <SiYoutube size="30px"/>
+            <a href=" " target="_blank" ><SiYoutube size="30px"/></a>
             </div>
         </>
     );

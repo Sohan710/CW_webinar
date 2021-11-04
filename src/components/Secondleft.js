@@ -9,7 +9,7 @@ function Secondleft() {
         <>
             <div className="pic4">
                 <img src={image_4} height={300} width={350} />
-                <AiFillLinkedin size="50px" color='#2867B2' id="icon1"/>
+                <a href="https://www.linkedin.com/in/mg04" target="_blank">    <AiFillLinkedin size="50px" color='#2867B2' id="icon1"/></a>
             </div>
             <div className="text_data">
                 <p>Mohit Gulati, CIO</p>
@@ -17,7 +17,7 @@ function Secondleft() {
             </div>
             <div className="pic5">
                 <img src={image_5} height={300} width={350} />
-                <AiFillLinkedin size="50px" color='#2867B2' id="icon2"/>
+                <a href="https://www.linkedin.com/in/satwikjain22" target="_blank"><AiFillLinkedin size="50px" color='#2867B2' id="icon2"/></a>
             </div>
             <div className="text_data1">
                 <p>Satwik Jain, Fund Manager</p>

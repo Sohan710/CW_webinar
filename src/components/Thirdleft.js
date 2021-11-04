@@ -31,7 +31,7 @@ function Thirdleft() {
             <p1>Name cannot exceed 25 characters</p1>
           )}
           {errors?.firstName?.type === "pattern" && (
-            <p1>Alphabetical characters only</p1>
+            <p1>Invalid name</p1>
           )}
           {/* <label>Last Name</label>
           <input {...register("lastName", { pattern: /^[A-Za-z]+$/i })} />
@@ -42,15 +42,15 @@ function Thirdleft() {
           <input placeholder="abc@gmail.com"{...register("emailID", {required: true, pattern: /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i })} />
           {errors?.emailID?.type === "required" && <p1><br/></p1>}
           {errors?.emailID?.type === "pattern" && (
-            <p1>Alphabetical characters only</p1>
+            <p1>Invalid email id</p1>
           )}
           
           <label class="required">Phone No</label>
           <input placeholder="+91 0000000000" {...register("mobNo", {required: true,minLength:10,maxLength:12 })} />
           {errors?.mobNo?.type === "required" && <p1><br/></p1>}
-          {/* {errors?.mobNo?.type === "pattern" && (
-            <p1>Mobile Number cannot be less than 10 characters</p1>
-          )} */}
+          {errors?.mobNo?.type === "number" && (
+            <p1>Invalid Mobile Number</p1>
+          )}
           <div class="row">
             <div class="col-sm-5">
               <label class="required">Profession</label>

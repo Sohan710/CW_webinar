@@ -14,6 +14,8 @@ import Secondright from './components/Secondright';
 import Thirdleft from './components/Thirdleft';
 import Thirdright from './components/Thirdright';
 import Footer from './components/Footer';
+
+
 function App() {
   return (
 
@@ -66,7 +68,7 @@ function App() {
                 </div>
 
                 <div className="butt_last">
-                  <a class="btn btn-primary btn-lg" href="#" role="button">Register Now</a>
+                  <a type="button" class="btn btn-primary btn-lg">Register Now</a>
                 </div>
               </div>
             </div>

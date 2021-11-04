@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Signup from './components/register';
 import PaintIcon from "./images/Webinar-Page.png";
 import * as Icon from 'react-bootstrap-icons';
 import image_1 from './images/1.svg';
@@ -14,9 +13,8 @@ import Secondright from './components/Secondright';
 import Thirdleft from './components/Thirdleft';
 import Thirdright from './components/Thirdright';
 import Footer from './components/Footer';
-
-
 function App() {
+  
   return (
 
     <>
@@ -34,7 +32,7 @@ function App() {
               </div>
               <div className="col-sm-4 " >
                 <div className="butt">
-                  <button class="button">LIVE WEBINAR <Icon.PlayCircleFill /></button>
+                  <a href="#register"><button class="button">LIVE WEBINAR <Icon.PlayCircleFill /></button></a>
                 </div>
                 <p id="t2">13TH NOVEMBER 2021</p>
                 <p id="t3">SATURDAY</p>
@@ -68,14 +66,20 @@ function App() {
                 </div>
 
                 <div className="butt_last">
-                  <a type="button" class="btn btn-primary btn-lg">Register Now</a>
+                  <a href='#register' type="button" class="btn btn-primary btn-lg">Register Now</a>
                 </div>
               </div>
             </div>
 
           </div>
         </div>
-
+        <hr style={{
+            color: 'black',
+            height: 0.5,
+            marginTop: 10,
+            marginRight: 10,
+            marginLeft: 10
+            }}/>
         {/* Second screen */}
         <div style={{
           backgroundImage: `url(${PaintIcon})`
@@ -97,14 +101,20 @@ function App() {
 
           </div>
         </div>
-        
+        <hr style={{
+            color: 'black',
+            height: 0.5,
+            marginTop: 10,
+            marginRight: 10,
+            marginLeft: 10
+            }} />
         {/* Third screen */}
         <div style={{
           backgroundImage: `url(${PaintIcon})`
         }}>
 
 
-          <div className="container-fluid">
+          <div className="container-fluid" id="register">
             <div class="row">
 
               <div className="col-sm-8">
@@ -121,6 +131,7 @@ function App() {
           </div>
         </div>
         <Footer />
+        
       </Router>
     </>
     

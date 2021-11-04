@@ -95,7 +95,7 @@ function Thirdleft() {
           )}
           
           <label class="required">Phone No</label>
-          <input id="phone" type="number" placeholder="+91 0000000000" defaultValue="+91 " {...register("mobNo", {required: true,minLength:10,maxLength:12 })} />
+          <input id="phone" placeholder="+91 0000000000" defaultValue="+91 " {...register("mobNo", {required: true,minLength:10,maxLength:12 })} />
           {errors?.mobNo?.type === "required" && <p1><br/></p1>}
           {errors?.mobNo?.type === "number" && (
             <p1>Invalid Mobile Number</p1>

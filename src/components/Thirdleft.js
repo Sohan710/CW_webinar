@@ -5,6 +5,7 @@ import { useForm, Controller } from "react-hook-form";
 import Axios from 'axios';
 import { db } from '../firebase-config';
 import {collection, addDoc, setDoc} from "firebase/firestore";
+import Swal from 'sweetalert2'
 function Thirdleft() {
     const url = "https://api.zoom.us/v2/accounts/office@cambridgewealth.in/webinars/98069244111/registrants"
     const {
@@ -44,7 +45,14 @@ function Thirdleft() {
     }; // your form submit function which will invoke after successful validation
     
     const saveAnswer = (event) => {
-      
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'You have been registered!',
+        text: "You will get the confirmation mail soon!",
+        showConfirmButton: false,
+        timer: 2000
+      })
       event.preventDefault();
       const elementsArray = [...event.target.elements]
       const formData = elementsArray.reduce((accumulator, currentValue) => {

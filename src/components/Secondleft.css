@@ -1,3 +1,11 @@
+@font-face {
+  font-family: BegumSans;
+  src: url("../font/BegumSans-Regular.ttf") format('truetype'),
+   url("../font/BegumSans-Regular.woff") format('woff'),
+   url("../font/BegumSans-Regular.woff2") format('woff2'),
+   url("../font/BegumSans-Regular.eot") format('eot');
+  
+}
   .pic4{
     margin-left: 60px;
     
@@ -25,7 +33,7 @@
 
 
   .text_data{
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     font-size: 20px;
     text-align: left;
     margin-top: -50px;
@@ -35,12 +43,12 @@
   }
   #tx1{
       margin-top: -20px;
-      font-family: 'Begum sans';
+      font-family: 'BegumSans';
       color: #808080;
   }
 
   .text_data1{
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     font-size: 20px;
     text-align: left;
     margin-top: -50px;
@@ -50,12 +58,12 @@
   }
   #tx2{
       margin-top: -20px;
-      font-family: 'Begum sans';
+      font-family: 'BegumSans';
       color: #808080;
   }
 
   .left_text{
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     font-size: 20px;
     text-align: left;
     margin-top: 0px;
@@ -64,12 +72,12 @@
   }
   #tx3{
       margin-top: -20px;
-      font-family: 'Begum sans';
+      font-family: 'BegumSans';
       color: #808080;
   }
 
   .right_text{
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     font-size: 20px;
     text-align: left;
     margin-top: -230px;
@@ -78,5 +86,5 @@
   }
   #tx4{
       margin-top: -20px;
-      font-family: 'Begum sans';
+      font-family: 'BegumSans';
   }

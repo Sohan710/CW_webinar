@@ -1,8 +1,18 @@
+@font-face {
+  font-family: BegumSans;
+  src: url("../font/BegumSans-Regular.ttf") format('truetype'),
+    url("../font/BegumSans-Regular.woff") format('woff'),
+    url("../font/BegumSans-Regular.woff2") format('woff2'),
+    url("../font/BegumSans-Regular.eot") format('eot');
+  font-style: normal;
+  font-weight: normal;
+  
+}
 .ck {
     margin-left: 120px;
 }
 .text_center {
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     font-size: 20px;
     text-align: left;
     margin-top: -50px;
@@ -14,7 +24,7 @@
 /* 
 .text2 {
 
-    font-family: 'Begum sans-light';
+    font-family: 'BegumSans-light';
     font-size: 22px;
     margin-top: 30px;
     margin-left: 20px;
@@ -24,11 +34,11 @@
 
 #tx2{
     margin-top: -20px;
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     color: #808080;
 }
 .center_text{
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     font-size: 20px;
     text-align: left;
     margin-top: 0px;
@@ -37,7 +47,7 @@
   }
   #tx3{
     margin-top: -20px;
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     color: #808080;
   }
 

@@ -31,7 +31,7 @@ function Secondleft() {
 
             <div className="right_text">
                 <p>Previously managed Equity & Alt. <br/>assets at Client Associates which<br/>advised over INR 25000 Crs.</p>
-                <p className="tx4">Co-founded'fitnessholic.com'<br/>aggregating over 150 fitness<br/>centers on its platform.</p>
+                <p className="tx4">Co-founded 'fitnessholic.com'<br/>aggregating over 150 fitness<br/>centers on its platform.</p>
             </div>
 
         </>

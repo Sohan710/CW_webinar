@@ -13,6 +13,7 @@ import Secondright from './components/Secondright';
 import Thirdleft from './components/Thirdleft';
 import Thirdright from './components/Thirdright';
 import Footer from './components/Footer';
+import './font/BegumSans-Regular.ttf';
 function App() {
   
   return (

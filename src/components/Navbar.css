@@ -1,3 +1,31 @@
+@font-face {
+  font-family: BegumSans;
+  src: url("../font/BegumSans-Regular.ttf") format('truetype'),
+   url("../font/BegumSans-Regular.woff") format('woff'),
+   url("../font/BegumSans-Regular.woff2") format('woff2'),
+   url("../font/BegumSans-Regular.eot") format('eot');
+  font-style: normal;
+  font-weight: normal;
+  
+}
+@font-face {
+  font-family: Begumsans-light;
+  src: url("../font/BegumSans-Light.ttf") format('truetype'),
+   url("../font/BegumSans-Light.woff") format('woff'),
+   url("../font/BegumSans-Light.woff2") format('woff2'),
+   url("../font/BegumSans-Light.eot") format('eot');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: Begumsans-medium;
+  src: url("../font/BegumSans-Medium.ttf") format('truetype'),
+   url("../font/BegumSans-Medium.woff") format('woff'),
+   url("../font/BegumSans-Medium.woff2") format('woff2'),
+   url("../font/BegumSans-Medium.eot") format('eot');
+  font-style: normal;
+  font-weight: normal;
+}
 .navbar {
     background: (90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
     height: 80px;
@@ -19,14 +47,14 @@
   }
 
   .navbar-text {
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     font-size: 22px;
     text-align: right;
     margin-left: 515px;
     margin-top: -75px;
   }
   #p1{
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     margin-top: -25px;
   }
 
@@ -38,7 +66,7 @@
     margin-left: 30px;
     cursor: pointer;
     text-decoration: none;
-    font-family:'Begum sans';
+    font-family:'BegumSans';
     font-size: 2rem;
     display: flex;
     align-items: center;
@@ -178,14 +206,14 @@
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     font-size: 1.2rem;
 
 }
 
   .head-text {
     background: (90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     font-size: 30px;
     text-align: left;
     margin-left: 40px;
@@ -193,7 +221,7 @@
   }
 
   #t1 {
-    font-family: 'Begum sans';
+    font-family: 'BegumSans';
     margin-top: -35px;
     font-size: 42px;
     margin-left: 0px;

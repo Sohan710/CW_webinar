@@ -88,7 +88,7 @@ function Thirdleft() {
             <p1>Alphabetical characters only</p1>
           )} */}
           <label className='required'>Email ID</label>
-          <input id="email"{...register("emailID", {required: true, pattern: /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i })} />
+          <input id="email" placeholder='abc@gmail.com' {...register("emailID", {required: true, pattern: /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i })} />
           {errors?.emailID?.type === "required" && <p1><br/></p1>}
           {errors?.emailID?.type === "pattern" && (
             <p1>Invalid email id</p1>
@@ -102,8 +102,8 @@ function Thirdleft() {
           )}
           <div class="row">
             <div class="col-sm-5">
-              <label class="required">Profession</label>
-              <select id="profession" {...register("profession",{required: true})}>
+              <label>Profession</label>
+              <select id="profession" {...register("profession",{required: false})}>
                   <option value="Service">Service</option>
                   <option value="Private">Private</option>
                   <option value="Govt Sector">Govt Sector</option>
@@ -115,8 +115,8 @@ function Thirdleft() {
               {errors?.profession?.type === "required" && <p1></p1>}
             </div>
             <div className="col-sm-5">
-              <label class="required">Designation</label>
-              <select id="designation" {...register("designation",{required: true})}>
+              <label>Designation</label>
+              <select id="designation" {...register("designation",{required: false})}>
                   <option value="Salaried - Director">Salaried - Director</option>
                   <option value="Salaried - VP, SVP">Salaried - VP, SVP</option>
                   <option value="Salaried - CEO">Salaried - CEO</option>

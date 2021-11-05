@@ -1,14 +1,42 @@
+@font-face {
+  font-family: Begumsans;
+  src: url("../font/BegumSans-Regular.ttf") format('truetype');
+  src: url("../font/BegumSans-Regular.woff") format('woff');
+  src: url("../font/BegumSans-Regular.woff2") format('woff2');
+  src: url("../font/BegumSans-Regular.eot") format('eot');
+  font-style: normal;
+  font-weight: normal;
+  
+}
+@font-face {
+  font-family: Begumsans-light;
+  src: url("../font/BegumSans-Light.ttf") format('truetype');
+  src: url("../font/BegumSans-Light.woff") format('woff');
+  src: url("../font/BegumSans-Light.woff2") format('woff2');
+  src: url("../font/BegumSans-Light.eot") format('eot');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: Begumsans-medium;
+  src: url("../font/BegumSans-Medium.ttf") format('truetype');
+  src: url("../font/BegumSans-Medium.woff") format('woff');
+  src: url("../font/BegumSans-Medium.woff2") format('woff2');
+  src: url("../font/BegumSans-Medium.eot") format('eot');
+  font-style: normal;
+  font-weight: normal;
+}
 .third_text{
     margin-top: 60px;
     margin-left: 60px;
-    font-family: 'Begum sans';
+    font-family: 'Begumsans';
     font-size: 28px;
     font-style: bolder;
     font-weight: 600;
   }
   
   .thrid_info{
-      font-family: 'Begum sans';
+      font-family: 'Begumsans';
     font-size: 20px;
     text-align: left;
     margin-top: 20px;
@@ -17,7 +45,7 @@
   }
   
   #tp1{
-      font-family: 'Begum sans regular';
+      font-family: 'Begumsans';
     font-size: 20px;
     text-align: left;
     margin-top: 80px;
@@ -25,7 +53,7 @@
   }
   
   #tp2{
-      font-family: 'Begum sans regular';
+      font-family: 'Begumsans';
     font-size: 20px;
     text-align: left;
     margin-top: 45px;
@@ -33,7 +61,7 @@
   }
   
   #tp3{
-      font-family: 'Begum sans regular';
+      font-family: 'Begumsans';
       font-size: 20px;
       text-align: left;
       margin-top: 45px;

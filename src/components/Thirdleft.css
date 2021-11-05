@@ -92,14 +92,15 @@ form {
     color: black;
     /* text-transform: uppercase; */
     border: none;
-    margin-top: 40px;
+    margin-top: 60px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 50;
     /* letter-spacing: 10px; */
     font-family: 'Begumsans-medium';
     border-radius: 5px;
     font-weight: 400;
+    width: 540px;
   }
   
   button[type="submit"]:hover,
@@ -198,6 +199,51 @@ form {
     background-color: white;
   }
 
-  #designation {
-    width: 80%;
+
+  #email{
+    width: 42%;
+    margin-left: 310px;
+    margin-top: -70px;
+  }
+  #mail{
+    margin-left: 300px;
+    margin-top: -69px;
+  }
+
+
+  #name{
+    width: 42%;
+  }
+  #name1{
+    margin-left: -11px;
+    margin-top: 60px;
+  }
+
+
+  #phone{
+    width: 90%;
+  }
+  #mobile{
+    margin-left: -11px;
+    margin-top: 30px;
+  }
+
+
+  #prof{
+    margin-left: 30px;
+    margin-top: 35px;
+  }
+  #profession{
+    width: 90%;
+    margin-left: 30px;
+  }
+
+
+  #designation{
+    width: 42%;
+    margin-left: 0px;
+  }
+  #desig{
+    margin-top: 30px;
+    margin-left: 0px;
   }

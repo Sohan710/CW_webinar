@@ -14,10 +14,13 @@ import Thirdleft from './components/Thirdleft';
 import Thirdright from './components/Thirdright';
 import Footer from './components/Footer';
 import './font/BegumSans-Regular.ttf';
+
+
+
 function App() {
   
   return (
-
+    
     <>
       <Router>
         <div style={{
@@ -35,7 +38,7 @@ function App() {
               </div>
               <div className="col-sm-4 " >
                 <div className="butt">
-                  <a href="#register"><button class="button" >LIVE WEBINAR <Icon.PlayCircleFill /></button></a>
+                  <a href="#register"><button class="button">LIVE WEBINAR <Icon.PlayCircleFill /></button></a>
                 </div>
                 <p id="t2">13TH NOVEMBER 2021</p>
                 <p id="t3">SATURDAY</p>
@@ -44,7 +47,7 @@ function App() {
                   style={{
                     color: 'black',
                     height: 2,
-                    marginTop: -16,
+                    marginTop: -3,
                     width: 610,
                     marginLeft: -20
 
@@ -102,7 +105,7 @@ function App() {
                 <Secondleft />
               </div>
               <div className="col-sm-4 " >
-                <p id = "title">Moderator</p>
+                <p id = "title1">Moderator</p>
                 <Secondright />
               </div> 
             </div>

@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import './Thirdleft.css';
 // import ReactDOM from "react-dom";
 import { useForm, Controller } from "react-hook-form";
-import Axios from 'axios';
+// import Axios from 'axios';
 import { db } from '../firebase-config';
 import {collection, addDoc, setDoc} from "firebase/firestore";
 import Swal from 'sweetalert2'

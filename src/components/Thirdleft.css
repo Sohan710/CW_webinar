@@ -20,7 +20,7 @@ form {
   
   p1 {
     color: #bf1650;
-    font-family: 'Begum sans ';
+    font-family: 'Begum sans light';
     font-size: 10px;
     margin-top: -5px;
     padding: -10px;
@@ -55,7 +55,7 @@ form {
     color: black;
     font-size: 16px;
     font-weight: 100;
-    font-family: 'Begum sans';
+    font-family: 'Begum sans regular';
   }
   
   button[type="submit"],

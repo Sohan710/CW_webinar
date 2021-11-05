@@ -24,7 +24,9 @@ function App() {
         }}>
 
 
-          <div className="container-fluid">
+          <div className="container-fluid"style={{
+            marginBottom: -20
+            }}>
             <div class="row">
 
               <div className="col-sm-8">
@@ -32,7 +34,7 @@ function App() {
               </div>
               <div className="col-sm-4 " >
                 <div className="butt">
-                  <a href="#register"><button class="button">LIVE WEBINAR <Icon.PlayCircleFill /></button></a>
+                  <a href="#register"><button class="button" >LIVE WEBINAR <Icon.PlayCircleFill /></button></a>
                 </div>
                 <p id="t2">13TH NOVEMBER 2021</p>
                 <p id="t3">SATURDAY</p>
@@ -76,17 +78,22 @@ function App() {
         <hr style={{
             color: 'black',
             height: 0.5,
-            marginTop: 10,
+            marginTop: 40,
             marginRight: 10,
-            marginLeft: 10
+            marginLeft: 10,
+            marginBottom: 20
             }}/>
         {/* Second screen */}
         <div style={{
           backgroundImage: `url(${PaintIcon})`
         }}>
+        
 
-
-          <div className="container-fluid">
+          <div className="container-fluid" style={{
+            marginTop: 20,
+            marginBottom: -20
+            }}>
+              
             <div class="row">
 
               <div className="col-sm-8">
@@ -104,9 +111,10 @@ function App() {
         <hr style={{
             color: 'black',
             height: 0.5,
-            marginTop: 10,
+            marginTop: 40,
             marginRight: 10,
-            marginLeft: 10
+            marginLeft: 10,
+            marginBottom: 20 
             }} />
         {/* Third screen */}
         <div style={{

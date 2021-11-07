@@ -93,10 +93,10 @@ function App() {
         }}>
         
 
-          <div className="container-fluid" style={{
+          {/* <div className="container-fluid" style={{
             marginTop: 20,
             marginBottom: -20
-            }}>
+            }}> */}
               
             <div class="row">
 
@@ -111,7 +111,7 @@ function App() {
             </div>
 
           </div>
-        </div>
+        {/* </div> */}
         <hr style={{
             color: 'black',
             height: 0.5,
@@ -126,8 +126,8 @@ function App() {
         }}>
 
 
-          <div className="container-fluid" id="register">
-            <div class="row">
+          {/* <div className="container-fluid" id="register"> */}
+            <div class="row" id="register">
 
               <div className="col-sm-8">
                 <p id = "title3">Register now for assured access.</p>
@@ -141,7 +141,7 @@ function App() {
             </div>
 
           </div>
-        </div>
+        {/* </div> */}
         <Footer />
         
       </Router>

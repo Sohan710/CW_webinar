@@ -44,7 +44,7 @@ function Thirdleft() {
     // })
   }; // your form submit function which will invoke after successful validation
 
-  const saveAnswer = (event) => {
+  const submitAnswer = (event) => {
     Swal.fire({
       position: 'center',
       icon: 'success',
@@ -52,21 +52,25 @@ function Thirdleft() {
       text: "You will get the confirmation mail soon!",
       showConfirmButton: false,
       timer: 2000
-    })
+    }
+    )
     event.preventDefault();
     const elementsArray = [...event.target.elements]
     const formData = elementsArray.reduce((accumulator, currentValue) => {
-      if (currentValue.id) {
+      if (currentValue.id) {  
         accumulator[currentValue.id] = currentValue.value;
       }
       return accumulator;
+    
     }, {});
     // db.collection("users").add(formData);
+    
     addDoc(collection(db, "users"), formData);
+    
   };
   console.log(watch("example"));
   return (
-    <form onSubmit={saveAnswer}>
+    <form onSubmit={submitAnswer}>
       <label class="required" id="name1">Name</label>
       <input id="name" placeholder="Vikas Oberoi"
         {...register("firstName", {
@@ -96,7 +100,7 @@ function Thirdleft() {
       <div class="row">
         <div className="col-sm-5">
           <label class="required" id="mobile">Phone No</label>
-          <input id="phone" placeholder="+91 0000000000" defaultValue="+91 " {...register("mobNo", { required: true, minLength: 10, maxLength: 12 })} />
+          <input id="phone" placeholder="+91 0000000000" defaultValue="+91 " {...register("mobNo", { required: true, minLength: 10, maxLength: 14 })} />
           {errors?.mobNo?.type === "required" && <p1><br /></p1>}
           {errors?.mobNo?.type === "number" && (
             <p1>Invalid Mobile Number</p1>
@@ -134,9 +138,9 @@ function Thirdleft() {
 
         {errors?.designation?.type === "required" && <p1></p1>}
 
-      <input type="submit" value="Register Now" />
+      <input type="submit" value="Register Now"/>
       <div className="last_text">
-        <p>*By clicking this button, you submit your information to the webinar organizer, who will use it to communicate with youregarding this event and their other services.</p>
+        <p>*By clicking this button, you submit your information to the webinar organizer, who will use it to communicate with you regarding this event and their other services.</p>
       </div>
     </form>
 

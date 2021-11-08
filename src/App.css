@@ -410,4 +410,19 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
   }
+
+  .col-sm-8 {
+    display: inline-block;
+    width: 100%;
+    text-align: justify center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .col-sm-4 {
+    display: inline-block;
+    width: 100%;
+    text-align: justify center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
 }

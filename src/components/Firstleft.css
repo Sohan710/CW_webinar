@@ -65,3 +65,29 @@
     margin-left: 50px;
     color: #808080;
 }
+
+@media screen and (max-width: 400px) {
+    
+    
+    #txt1 {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 50px;
+        color: #808080;
+    }
+    
+    #txt2 {
+        font-size: 17px;
+        margin-top: 100px;
+        margin-left: 50px;
+        color: #808080;
+    }
+    
+    #txt3 {
+        margin-top: 180px;
+        font-size: 17px;
+        margin-left: 50px;
+        color: #808080;
+    }
+    
+}

@@ -36,14 +36,14 @@ function Navbar() {
                         <LogoSvg />
                     </Link>
                 </div>
-                <div className="navbar-text">
+                <div className="navbar-text" id="nav_text">
                     <p>Making Performance Investing Easy,</p>
                     <p id="p1">Accessible and Transparent</p>
                 </div>
                 
             </nav>
             <nav className="headertext">
-                <div className="head-text">
+                <div className="head-text" id="head_text">
                     <p>A Deep Dive Into</p>
                     <p id="t1">Investing in the Indian Tech Story</p>
                     

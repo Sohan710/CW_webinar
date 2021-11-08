@@ -135,7 +135,7 @@
     margin-left: 0px;
   }
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 800px) {
     .NavbarItems {
       position: relative;
       width: 100%;
@@ -155,19 +155,18 @@
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
-      overflow-y: hidden;
       overflow-x: hidden;
     }
     
     .navbar-logo{
       width:40vw;
       height: 40vw;
-      margin-top: -30px;
+      margin-top: -20px;
       
     }
 
     #nav_text{
-      margin-left: 82px;
+      margin-left: 105px;
       margin-top: 10px;
       margin-bottom: 0px;
       text-align: justify left;

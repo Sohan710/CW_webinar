@@ -247,3 +247,240 @@ form {
     margin-top: 30px;
     margin-left: 0px;
   }
+
+
+  @media screen and (max-width: 800px){
+    form {
+      display: inline-block;
+      width: 100%;
+      text-align: justify center;
+      overflow-x: hidden;
+      word-wrap: break-word;
+  }
+    
+    h1 {
+      font-weight: 100;
+      color: black;
+      text-align: center;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgb(79, 98, 148);
+    }
+    
+    .form {
+      background: #0e101c;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    p1 {
+      color: #bf1650;
+      font-family: 'Begumsans-light';
+      font-size: 10px;
+      margin-top: -5px;
+      padding: -10px;
+    }
+    
+    p1::before {
+      /* display: inline-block;
+      content: "*Required"; */
+      margin-top: -5px;
+      padding: -50px;
+    }
+    
+    input {
+      background: transparent;
+      border: 1px solid black;
+      width: 90%;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      padding: -10px -5px;
+      margin-bottom: 10px;
+      font-size: 18px;
+  
+    }
+    
+    label {
+      line-height: 2;
+      text-align: left;
+      display: block;
+      /* margin-bottom: -13px; */
+      margin-top: 10px;
+      color: black;
+      font-size: 16px;
+      font-weight: 100;
+      font-family: 'BegumSans';
+    }
+    
+    button[type="submit"],
+    input[type="submit"] {
+      background: #f4c264;
+      color: black;
+      /* text-transform: uppercase; */
+      border: none;
+      margin-top: 40px;
+      margin-left: 40px;
+      padding: 10px;
+      font-size: 18px;
+      font-weight: 50;
+      /* letter-spacing: 10px; */
+      font-family: 'Begumsans-medium';
+      border-radius: 5px;
+      font-weight: 400;
+      width: 80%;
+    }
+    
+    button[type="submit"]:hover,
+    input[type="submit"]:hover {
+      background: #f4c264;
+    }
+    
+    button[type="submit"]:active,
+    input[type="button"]:active,
+    input[type="submit"]:active {
+      transition: 0.3s all;
+      transform: translateY(3px);
+      border: 1px solid transparent;
+      opacity: 0.8;
+    }
+    
+    input:disabled {
+      opacity: 0.4;
+    }
+    
+    input[type="button"]:hover {
+      transition: 0.3s all;
+    }
+    
+    button[type="submit"],
+    input[type="button"],
+    input[type="submit"] {
+      -webkit-appearance: none;
+    }
+    
+    /* .App {
+      max-width: 600px;
+      margin: 0 auto;
+    } */
+    
+    button[type="button"] {
+      display: block;
+      appearance: none;
+      background: #333;
+      color: black;
+      border: none;
+      /* text-transform: uppercase; */
+      padding: 10px 20px;
+      border-radius: 4px;
+    }
+    
+    hr {
+      margin-top: 30px;
+    }
+    
+    button {
+      display: block;
+      appearance: none;
+      margin-top: 40px;
+      border: 1px solid #333;
+      margin-bottom: 20px;
+      /* text-transform: uppercase; */
+      padding: 10px 20px;
+      border-radius: 4px;
+    }
+  
+    .required:before {
+      content:"* ";
+      color: red;
+    }
+  
+    select {
+      border: 1px solid #000;
+      border-left: 0px;
+      border-top: 0px;
+      border-right: 0px;
+      width: 60%;
+      font-size: 18px;
+      font-family: 'BegumSans';
+    }
+  
+    .last_text {
+      font-family: 'BegumSans';
+      font-size: 9px;
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 0px;
+      padding-bottom: 20px;
+      color: #808080;
+      width: 80%;
+      margin-left: 50px;
+    }
+  
+    .row {
+      display: inline-block;
+    width: 100%;
+    text-align: justify center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    }
+  
+    .col-sm-5 {
+      width: 50%;
+      bottom: 0%;
+      height: 15vh;
+      overflow-y: hidden;
+      background-color: white;
+    }
+  
+  
+    #email{
+      width: 80%;
+      margin-left: 40px;
+      margin-top: 0px;
+    }
+    #mail{
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+  
+  
+    #name{
+      width: 80%;
+      margin-left: 40px;
+    }
+    #name1{
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+  
+  
+    #phone{
+      width: 80%;
+      margin-left: 40px;
+    }
+    #mobile{
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+  
+  
+    #prof{
+      margin-left: 40px;
+      margin-top: 10px;
+    }
+    #profession{
+      width: 80%;
+      margin-left: 40px;
+    }
+  
+  
+    #designation{
+       width: 80%;
+      margin-left: 40px;
+    }
+    #desig{
+      margin-left: 40px;
+      margin-top: -10px;
+    }
+  }

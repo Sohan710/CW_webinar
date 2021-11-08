@@ -3,7 +3,7 @@ import './Firstleft.css';
 
 function Firstleft() {
     return (
-        <> <hr id="l1"
+        <> <hr className="l1"
         style={{
             color: 'black',
             height: 2,

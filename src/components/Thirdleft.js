@@ -106,7 +106,7 @@ function Thirdleft() {
             <p1>Invalid Mobile Number</p1>
           )}
         </div>
-
+        
         <div className="col-sm-5">
           <label id="prof">Profession</label>
           <select id="profession" {...register("profession", { required: false })}>

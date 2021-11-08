@@ -38,7 +38,7 @@ function App() {
               </div>
               <div className="col-sm-4" id="mobile_2nd">
                 <div className="butt">
-                  <a href="#register"><button class="button" id="liv_butt">LIVE WEBINAR <Icon.PlayCircleFill /></button></a>
+                  <a href="#register"><button class="button" id="liv_butt">LIVE WEBINAR <Icon.PlayCircleFill  /></button></a>
                 </div>
                 <p id="t2">13TH NOVEMBER 2021</p>
                 <p id="t3">SATURDAY</p>
@@ -127,14 +127,14 @@ function App() {
 
 
           {/* <div className="container-fluid" id="register"> */}
-            <div class="row" id="register">
+            <div className="row" id="register">
 
               <div className="col-sm-8">
                 <p id = "title3">Register now for assured access.</p>
                 <p id = "title4">We have limited seats.</p>
                 <Thirdleft />
               </div>
-              <div className="col-sm-4 " >
+              <div className="col-sm-4" >
                 
                 <Thirdright />
               </div> 

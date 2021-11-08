@@ -104,3 +104,90 @@
     margin-top: -30px;
     margin-left: 440px;
 }
+
+
+@media screen and (max-width: 800px) {
+  
+  .third_text{
+    max-width: 100%;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-family: 'Begumsans';
+    font-size: 28px;
+    font-style: bolder;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .thrid_info{
+      font-family: 'Begumsans';
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 180px;
+    padding-bottom: 20px;
+  }
+  
+  #tp1{
+      font-family: 'Begumsans';
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: -20px;
+  }
+  
+  #tp2{
+      font-family: 'Begumsans';
+    font-size: 20px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: -20px;
+  }
+  
+  #tp3{
+      font-family: 'Begumsans';
+      font-size: 20px;
+      text-align: left;
+      margin-top: 25px;
+      padding-bottom: 20px;
+      margin-left: -20px;
+  }
+  
+  .pic6{
+      margin-top: -350px;
+      margin-left: 30px;
+    }
+  
+.pic7{
+      margin-top: -20px;
+      margin-left: 30px;
+    }
+  
+.pic8{
+      margin-top: -25px;
+  margin-left: 30px;
+}
+
+.socal_icon1{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.socal_icon2{
+    margin-top: -30px;
+    margin-left: 130px;
+}
+.socal_icon3{
+    margin-top: -30px;
+    margin-left: 190px;
+}
+.socal_icon4{
+    margin-top: -30px;
+    margin-left: 250px;
+}
+.socal_icon5{
+    margin-top: -30px;
+    margin-left: 310px;
+}
+
+
+}

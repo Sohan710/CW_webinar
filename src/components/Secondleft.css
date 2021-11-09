@@ -6,153 +6,88 @@
    url("../font/BegumSans-Regular.eot") format('eot');
   
 }
-  /* .pic4{
-    margin-left: 60px;
-    
-  }
-  .pic5{
-    margin-left: 440px;
-    margin-top: -341px;
-  }
+.pic4{
+  margin-left: 5vw;
+  margin-top: 0vw;
+}
+.pic5{
+  margin-left: 30vw;
+  margin-top: -21.6vw;
+}
 
-  #icon1{
-    margin-top: 125px;
-    margin-left: -135px;
-    border-radius: 5px;
-    background: white;
-    border-width: -15px;
-  }
+#icon1{
+  margin-top: 8vw;
+  margin-left: -9vw;
+  border-radius: 0.5vw;
+  background: white;
+  border-width: 0vw;
+}
 
-  #icon2{
-    margin-top: 125px;
-    margin-left: -135px;
-    border-radius: 5px;
-    background: white;
-    border-width: -15px;
-  }
+#icon2{
+  margin-top: 8vw;
+  margin-left: -9vw;
+  border-radius: 0.5vw;
+  background: white;
+  border-width: 0vw;
+}
 
 
-  .text_data{
+.text_data{
+  font-family: 'BegumSans';
+  font-size: 1.4vw;
+  text-align: left;
+  margin-top: -3.5vw;
+  margin-left: 10vw;
+  padding-bottom: 1vw;
+  color: #808080;
+}
+#tx1{
+    margin-top: -1.5vw;
     font-family: 'BegumSans';
-    font-size: 20px;
-    text-align: left;
-    margin-top: -50px;
-    margin-left: 150px;
-    padding-bottom: 20px;
     color: #808080;
-  }
-  #tx1{
-      margin-top: -20px;
-      font-family: 'BegumSans';
-      color: #808080;
-  }
+}
 
-  .text_data1{
+.text_data1{
+  font-family: 'BegumSans';
+  font-size: 1.4vw;
+  text-align: left;
+  margin-top: -3.5vw;
+  margin-left: 34vw;
+  padding-bottom: 1vw;
+  color: #808080;
+}
+#tx2{
+    margin-top: -1.5vw;
     font-family: 'BegumSans';
-    font-size: 20px;
-    text-align: left;
-    margin-top: -50px;
-    margin-left: 510px;
-    padding-bottom: 20px;
     color: #808080;
-  }
-  #tx2{
-      margin-top: -20px;
-      font-family: 'BegumSans';
-      color: #808080;
-  }
+}
 
-  .left_text{
+.left_text{
+  font-family: 'BegumSans';
+  font-size: 1.3vw;
+  text-align: left;
+  margin-top: 0vw;
+  margin-left: 10vw;
+  padding-bottom: 1.2vw;
+}
+#tx3{
+    margin-top: -1.5vw;
     font-family: 'BegumSans';
-    font-size: 20px;
-    text-align: left;
-    margin-top: 0px;
-    margin-left: 150px;
-    padding-bottom: 20px;
-  } */
-  .pic4{
-    margin-left: 5vw;
-    margin-top: 0vw;
-  }
-  .pic5{
-    margin-left: 30vw;
-    margin-top: -21.6vw;
-  }
-
-  #icon1{
-    margin-top: 8vw;
-    margin-left: -9vw;
-    border-radius: 0.5vw;
-    background: white;
-    border-width: 0vw;
-  }
-
-  #icon2{
-    margin-top: 8vw;
-    margin-left: -9vw;
-    border-radius: 0.5vw;
-    background: white;
-    border-width: 0vw;
-  }
-
-
-  .text_data{
-    font-family: 'BegumSans';
-    font-size: 1.4vw;
-    text-align: left;
-    margin-top: -3.5vw;
-    margin-left: 10vw;
-    padding-bottom: 1vw;
     color: #808080;
-  }
-  #tx1{
-      margin-top: -1.5vw;
-      font-family: 'BegumSans';
-      color: #808080;
-  }
+}
 
-  .text_data1{
+.right_text{
+  font-family: 'BegumSans';
+  font-size: 1.3vw;
+  text-align: left;
+  margin-top: -15vw;
+  margin-left: 34vw;
+  padding-bottom: 1.2vw;
+}
+#tx4{
+    margin-top: -1.5vw;
     font-family: 'BegumSans';
-    font-size: 1.4vw;
-    text-align: left;
-    margin-top: -3.5vw;
-    margin-left: 34vw;
-    padding-bottom: 1vw;
-    color: #808080;
-  }
-  #tx2{
-      margin-top: -1.5vw;
-      font-family: 'BegumSans';
-      color: #808080;
-  }
-
-  .left_text{
-    font-family: 'BegumSans';
-    font-size: 1.3vw;
-    text-align: left;
-    margin-top: 0vw;
-    margin-left: 10vw;
-    padding-bottom: 1.2vw;
-  }
-  #tx3{
-      margin-top: -1.5vw;
-      font-family: 'BegumSans';
-      color: #808080;
-  }
-
-  .right_text{
-    font-family: 'BegumSans';
-    font-size: 1.3vw;
-    text-align: left;
-    margin-top: -15vw;
-    margin-left: 34vw;
-    padding-bottom: 1.2vw;
-  }
-  #tx4{
-      margin-top: -1.5vw;
-      font-family: 'BegumSans';
-  }
-
+}
   @media screen and (max-width: 800px) {
     .pic4{
       margin-left: 8vw;

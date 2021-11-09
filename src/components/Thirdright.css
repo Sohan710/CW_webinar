@@ -110,10 +110,10 @@
   
   .third_text{
     max-width: 100%;
-    margin-top: 60px;
-    margin-left: 40px;
+    margin-top: 20vw;
+    margin-left: 9vw;
     font-family: 'Begumsans';
-    font-size: 28px;
+    font-size: 7vw;
     font-style: bolder;
     text-align: center;
     font-weight: 600;
@@ -123,49 +123,48 @@
       font-family: 'Begumsans';
     font-size: 20px;
     text-align: left;
-    margin-top: 10px;
-    margin-left: 180px;
-    padding-bottom: 20px;
+    margin-top: 10vw;
+    margin-left: 35vw;
+    padding-bottom: 0px;
   }
   
   #tp1{
-      font-family: 'Begumsans';
-    font-size: 20px;
+    font-family: 'Begumsans';
+    font-size: 5vw;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 10vw;
     margin-left: -20px;
   }
   
   #tp2{
       font-family: 'Begumsans';
-    font-size: 20px;
-    text-align: left;
-    margin-top: 25px;
-    margin-left: -20px;
+      font-size: 5vw;
+      text-align: left;
+      margin-top: 7vw;
+      margin-left: -20px;
   }
   
   #tp3{
       font-family: 'Begumsans';
-      font-size: 20px;
+      font-size: 5vw;
       text-align: left;
-      margin-top: 25px;
-      padding-bottom: 20px;
+      margin-top: 7vw;
       margin-left: -20px;
   }
   
   .pic6{
-      margin-top: -350px;
-      margin-left: 30px;
+      margin-top: -73vw;
+      margin-left: 7vw;
     }
   
 .pic7{
-      margin-top: -20px;
-      margin-left: 30px;
+      margin-top: -10vw;
+      margin-left: 7vw;
     }
   
 .pic8{
-      margin-top: -25px;
-  margin-left: 30px;
+  margin-top: -5vw;
+  margin-left: 7vw;
 }
 
 .socal_icon1{

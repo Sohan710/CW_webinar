@@ -38,7 +38,7 @@ function Navbar() {
                 </div>
                 <div className="navbar-text" id="nav_text">
                     <p>Making Performance Investing Easy,</p>
-                    <p id="p1">Accessible and Transparent</p>
+                    <p id="p1">Accessible & Transparent</p>
                 </div>
                 
             </nav>

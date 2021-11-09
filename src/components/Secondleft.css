@@ -91,25 +91,25 @@
 
   @media screen and (max-width: 800px) {
     .pic4{
-      margin-left: 20px;
-      margin-top: -30px;
+      margin-left: 8vw;
+      margin-top: -5vw;
     }
     .pic5{
-      margin-left: 20px;
-      margin-top: 200px;
+      margin-left: 8vw;
+      margin-top: 45vw;
     }
   
     #icon1{
-      margin-top: -200px;
-      margin-left: 215px;
+      margin-top: -50vw;
+      margin-left: 51vw;
       border-radius: 5px;
       background: white;
       border-width: -15px;
     }
   
     #icon2{
-      margin-top: -200px;
-      margin-left: 215px;
+      margin-top: -50vw;
+      margin-left: 51vw;
       border-radius: 5px;
       background: white;
       border-width: -15px;
@@ -118,10 +118,10 @@
   
     .text_data{
       font-family: 'BegumSans';
-      font-size: 19px;
+      font-size: 5vw;
       text-align: center;
-      margin-top: -50px;
-      margin-left: 15px;
+      margin-top: -15vw;
+      margin-left: 8vw;
       padding-bottom: 20px;
     }
     #tx1{
@@ -131,10 +131,10 @@
     }
     .left_text{
       font-family: 'BegumSans';
-      font-size: 19px;
+      font-size: 5vw;
       text-align: left;
-      margin-top: -580px;
-      margin-left: 55px;
+      margin-top: -135vw;
+      margin-left: 18vw;
       padding-bottom: 20px;
     }
     #tx3{
@@ -147,10 +147,10 @@
 
     .text_data1{
       font-family: 'BegumSans';
-      font-size: 19px;
+      font-size: 5vw;
       text-align: center;
-      margin-top: -50px;
-      margin-left: 35px;
+      margin-top: -15vw;
+      margin-left: 8vw;
       padding-bottom: 20px;
     }
     #tx2{
@@ -159,10 +159,10 @@
     }
     .right_text{
       font-family: 'BegumSans';
-      font-size: 19px;
+      font-size: 5vw;
       text-align: left;
-      margin-top: 340px;
-      margin-left: 55px;
+      margin-top: 75vw;
+      margin-left: 15vw;
       padding-bottom: 20px;
     }
     #tx4{

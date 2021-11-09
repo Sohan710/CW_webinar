@@ -436,51 +436,51 @@ form {
   
     #email{
       width: 80%;
-      margin-left: 40px;
+      margin-left: 10vw;
       margin-top: 0px;
     }
     #mail{
       margin-left: 30px;
-      margin-top: 20px;
+      margin-top: 1vw;
     }
   
   
     #name{
       width: 80%;
-      margin-left: 40px;
+      margin-left: 10vw;
     }
     #name1{
       margin-left: 30px;
-      margin-top: 10px;
+      margin-top: 1vw;
     }
   
   
     #phone{
       width: 80%;
-      margin-left: 40px;
+      margin-left: 10vw;
     }
     #mobile{
-      margin-left: 30px;
-      margin-top: 20px;
+      margin-left: 8vw;
+      margin-top: 1vw;
     }
   
   
     #prof{
-      margin-left: 40px;
-      margin-top: 10px;
+      margin-left: 10vw;
+      margin-top: -2vw;
     }
     #profession{
       width: 80%;
-      margin-left: 40px;
+      margin-left: 10vw;
     }
   
   
     #designation{
        width: 80%;
-      margin-left: 40px;
+       margin-left: 10vw;
     }
     #desig{
-      margin-left: 40px;
-      margin-top: -10px;
+      margin-left: 10vw;
+      margin-top: -8vw;
     }
   }

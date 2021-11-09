@@ -131,7 +131,7 @@ function Thirdleft() {
           <option value="Owner - Trading Business">Owner - Trading Business</option>
           <option value="Owner - Manufacturing Enterprises">Owner - Manufacturing Enterprises</option>
           <option value="Owner - Director">Owner - Director</option>
-          <option value="Self Employed - Concultant">Self Employed - Consultant</option>
+          <option value="Self Employed - Consultant">Self Employed - Consultant</option>
           <option value="Self Employed - Freelancer">Self Employed - Freelancer</option>
 
         </select>

@@ -43,7 +43,7 @@ function Thirdright() {
             <a href="https://www.facebook.com/CambridgeWealth/  " target="_blank" ><SiFacebook size="30px"/></a>
             </div>
             <div className="socal_icon5">
-            <a href="https://www.youtube.com/channel/UCjxfUj1HKPsYm8YMgMSVamQ" target="_blank" ><SiYoutube size="30px"/></a>
+            <a href="https://www.youtube.com/channel/UCiB8y6gamw5ELVPAfuCoLXg" target="_blank" ><SiYoutube size="30px"/></a>
             </div>
         </>
     );

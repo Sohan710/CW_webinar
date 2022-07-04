@@ -93,3 +93,47 @@
     }
     
   }
+
+  @media screen and (min-device-width: 1040px) and (max-device-width: 1300px) { 
+    .ck {
+      margin-left: 5vw;
+      margin-top: -3vw;
+    }
+    .text_center {
+      font-family: 'BegumSans';
+      font-size: 1.6vw;
+      text-align: left;
+      margin-top: -4.5vw;
+      margin-left: 12vw;
+      padding-bottom: 0vw;
+      color: #808080;
+      
+    }
+    #tx3{
+      margin-top: -1.8vw;
+      font-family: 'BegumSans';
+      color: #808080;
+    }
+    .center_text{
+      font-family: 'BegumSans';
+      font-size: 1.3vw;
+      text-align: left;
+      margin-top: -15px;
+      margin-left: 12vw;
+      padding-bottom: 1vw;
+    }
+    #tx4{
+      margin-top: -1.8vw;
+      font-family: 'BegumSans';
+      color: #808080;
+    }
+    
+    #icon{
+      margin-top: 8vw;
+      margin-left: -9.5vw;
+      border-radius: 5px;
+      background: #f2f5f7;
+      border-width: -15px;
+    }
+    
+  }

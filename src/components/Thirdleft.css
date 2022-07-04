@@ -71,7 +71,7 @@ form {
     padding: -10px -5px;
     margin-bottom: 10px;
     font-size: 18px;
-
+    
   }
   
   label {
@@ -188,7 +188,8 @@ form {
   }
 
   .row {
-    margin-left: -13px;
+    margin-left: 0px;
+    overflow-x: hidden;
   }
 
   .col-sm-5 {
@@ -203,7 +204,7 @@ form {
   #email{
     width: 42%;
     margin-left: 310px;
-    margin-top: -70px;
+    margin-top: -40px;
   }
   #mail{
     margin-left: 300px;
@@ -213,18 +214,20 @@ form {
 
   #name{
     width: 42%;
+    margin-left: 3px;
   }
   #name1{
-    margin-left: -11px;
+    margin-left: -10px;
     margin-top: 60px;
   }
 
 
   #phone{
     width: 90%;
+    margin-left: -10px;
   }
   #mobile{
-    margin-left: -11px;
+    margin-left: -13px;
     margin-top: 30px;
   }
 
@@ -483,4 +486,29 @@ form {
     margin-top: -8vw;
   }
 
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1300px) { 
+  #phone{
+    width: 90%;
+    
+  }
+  #mobile{
+    margin-left: -0.9vw;
+    margin-top: 1.8vw;
+  }
+  #prof{
+    margin-left: 30px;
+    margin-top: 2.vw;
+  }
+  #profession{
+    width: 90%;
+    margin-left: 30px;
+  }
+  #name {
+    margin-left: vw;
+  }
+  #email {
+    margin-top: -40px;
+  }
 }

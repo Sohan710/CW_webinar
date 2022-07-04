@@ -71,32 +71,34 @@ function Thirdleft() {
   console.log(watch("example"));
   return (
     <form onSubmit={submitAnswer}>
-      <label class="required" id="name1">Name</label>
-      <input id="name" placeholder="Vikas Oberoi"
-        {...register("firstName", {
-          required: true,
-          maxLength: 25,
-          pattern: /^[A-Za-z]{3}/i
-        })}
-      />
-      {errors?.firstName?.type === "required" && <p1><br /></p1>}
-      {errors?.firstName?.type === "maxLength" && (
-        <p1>Name cannot exceed 25 characters</p1>
-      )}
-      {errors?.firstName?.type === "pattern" && (
-        <p1>Invalid name</p1>
-      )}
+      <div class="row">
+        <label className='required' id="name1">Name</label>
+        <input id="name" placeholder="Vikas Oberoi"
+          {...register("firstName", {
+            required: true,
+            maxLength: 25,
+            pattern: /^[A-Za-z]{3}/i
+          })}
+        />
+        {errors?.firstName?.type === "required" && <p1><br /></p1>}
+        {errors?.firstName?.type === "maxLength" && (
+          <p1>Name cannot exceed 25 characters</p1>
+        )}
+        {errors?.firstName?.type === "pattern" && (
+          <p1>Invalid name</p1>
+        )}
       {/* <label>Last Name</label>
           <input {...register("lastName", { pattern: /^[A-Za-z]+$/i })} />
           {errors?.lastName?.type === "pattern" && (
             <p1>Alphabetical characters only</p1>
           )} */}
-      <label className='required' id="mail">Email ID</label>
-      <input id="email" placeholder='abc@gmail.com' {...register("emailID", { required: true, pattern: /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i })} />
-      {errors?.emailID?.type === "required" && <p1><br /></p1>}
-      {errors?.emailID?.type === "pattern" && (
-        <p1>Invalid email id</p1>
-      )}
+        <label className='required' id="mail">Email ID</label>
+        <input id="email" placeholder='abc@gmail.com' {...register("emailID", { required: true, pattern: /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i })} />
+        {errors?.emailID?.type === "required" && <p1><br /></p1>}
+        {errors?.emailID?.type === "pattern" && (
+          <p1>Invalid email id</p1>
+        )}
+      </div>
       <div class="row">
         <div className="col-sm-5">
           <label class="required" id="mobile">Phone No</label>
